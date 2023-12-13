@@ -245,7 +245,7 @@ export const HeroSection = () => {
                 />
               </Span>
             </TextLoop>
-            <SubTitle>{Bio.description}</SubTitle>
+            <SubTitle><p dangerouslySetInnerHTML={{ __html: Bio.description }} /></SubTitle>
             <SocialMediaIcons>
               <SocialMediaIcon href={Bio.facebook} target="display">
                 <FacebookIcon />

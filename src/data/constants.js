@@ -1,16 +1,18 @@
 export const Bio = {
   roles: "윤남원입니다.",
   description: `
-    안녕하세요. 프론트엔드 개발자를 꿈꾸는 윤남원입니다.   
-    사용자에게 좋은 경험을 전달하는 일에 큰 보람을 느끼고, 
-    항상 배우는 자세로 임하며 다양한 분야에서 도전적인 경험을 쌓고 싶습니다.`
-  ,
-   
+    안녕하세요. 프론트엔드 개발자를 꿈꾸는 윤남원입니다.<br> 
+    새로운 기술을 배우고 성장하는 것을 즐기며, 꾸준한 학습을 통해 빠르게 적응하는 능력이 있습니다.<br> 
+    팀원들과의 원활한 소통과 협업을 중요하게 생각합니다.<br> 
+    주어진 일에 적극적으로 도전하고, 문제 해결 능력을 기르는 데에 힘쓰고 있습니다.<br>
+    항상 배우는 자세로 임하고 더 나은 코드와 프로젝트를 만들어가고 싶습니다."
+    `,
   github: "https://github.com/YunNamwon",
   resume:
     "https://drive.google.com/file/d/1UNL6H3haABt-MRhxCVdEI-ImlnQnLKay/view?usp=drive_link",
   insta: "https://www.instagram.com/yunnamweon/",
-  facebook: "https://www.facebook.com/profile.php?id=100006311357186&locale=ko_KR",
+  facebook:
+    "https://www.facebook.com/profile.php?id=100006311357186&locale=ko_KR",
 };
 
 export const skills = [
@@ -34,7 +36,7 @@ export const skills = [
       {
         name: "TypeScipt",
         image:
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
       },
       {
         name: "React Js",
@@ -49,7 +51,7 @@ export const skills = [
       {
         name: "Tailwind",
         image:
-        "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+          "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
       },
       {
         name: "Material UI",
@@ -117,8 +119,7 @@ export const skills = [
       },
       {
         name: "Vercel",
-        image:
-        "https://logowik.com/content/uploads/images/vercel1868.jpg"
+        image: "https://logowik.com/content/uploads/images/vercel1868.jpg",
       },
     ],
   },
@@ -132,14 +133,7 @@ export const experiences = [
     company: "커넥트(Connect)",
     date: "2023/01 ~ 2023/09",
     desc: "Capston Design 경진대회 참가 & 컴퓨터공학과 친목",
-    skills: [
-      "HTML5",
-      "CSS",
-      "JavaScript",
-      "Python",
-      "MYSQL",
-      "AWS",
-    ],
+    skills: ["HTML5", "CSS", "JavaScript", "Python", "MYSQL", "AWS"],
   },
   {
     id: 1,
@@ -148,7 +142,7 @@ export const experiences = [
     company: "직무스터디",
     date: "2023/03 - 2023/07",
     desc: "정보처리기사 자격증 취득 & Computer Science(CS) 공부",
-    
+
     doc: "https://step.silla.ac.kr/MRD/Club/DutyD0010R.aspx?GUBUN=001&NO=1083&PRINT_ID=%2bG4rFci37ZUKXgiV6vb3bMnI8R7khMd4zSDJ4GTMeV4%3d&PRINT_IP=2TQeTEXNadAFWUavmiKlYRQ8CUV9OFQngtcFbKWHcdE%3d&RESEARCH_YN=Y",
   },
 ];
@@ -186,30 +180,15 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "Next Commerce",
+    date: "2023/08 - 2023/10",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "Shopping mall commerce system created using NextJS and TypeScript.",
+    image:"",
+    tags: ["TypeScript", "React Js", "Next Js", "React-Query", "Prisma DB", "Vercel"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/YunNamwon/Next-Commerce",
+    webapp: "https://next-commerce-seven-chi.vercel.app/",
   },
   {
     id: 1,
