@@ -203,7 +203,7 @@ const Image = styled.img`
   }
 `;
 
-export const Hero = () => {
+export const HeroSection = () => {
   return (
     <div id="about">
       <HeroContainer>
