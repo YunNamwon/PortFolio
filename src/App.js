@@ -11,7 +11,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Projects } from "./components/Projects";
 import { ProjectDetails } from "./components/ProjectDetails";
 import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};

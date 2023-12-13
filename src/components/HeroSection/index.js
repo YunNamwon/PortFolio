@@ -4,6 +4,9 @@ import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/HeroImage.jpg";
 import { HeroBgAnimation } from "../HeroBgAnimation";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -203,6 +206,23 @@ const Image = styled.img`
   }
 `;
 
+const SocialMediaIcons = styled.div`
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+`;
+
+const SocialMediaIcon = styled.a`
+  display: inline-block;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
+
 export const HeroSection = () => {
   return (
     <div id="about">
@@ -212,9 +232,7 @@ export const HeroSection = () => {
         </HeroBg>
         <HeroInnerContainer>
           <HeroLefContainer id="Left">
-            <Title>
-              사용자를 배려하는 개발자
-            </Title>
+            <Title>사용자를 배려하는 개발자</Title>
             <TextLoop>
               프론트엔드 개발자
               <Span>
@@ -228,8 +246,19 @@ export const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
+            <SocialMediaIcons>
+              <SocialMediaIcon href={Bio.facebook} target="display">
+                <FacebookIcon />
+              </SocialMediaIcon>
+              <SocialMediaIcon href={Bio.insta} target="display">
+                <InstagramIcon />
+              </SocialMediaIcon>
+              <SocialMediaIcon href={Bio.github} target="display">
+                <GitHubIcon />
+              </SocialMediaIcon>
+            </SocialMediaIcons>
             <ResumeButton href={Bio.resume} target="display">
-              Check Resume
+              이력서
             </ResumeButton>
           </HeroLefContainer>
           <HeroRightContainer>
