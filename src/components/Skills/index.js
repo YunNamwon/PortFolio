@@ -124,7 +124,7 @@ export const Skills = () => {
       <Wrapper>
         <Title>Skills</Title>
         <Desc>
-          Here are some of my skills on which i have been working on for the past 2 years.
+          프로젝트에서 사용경험이 있거나 조금이나마 배워본 적이 있는 기술
         </Desc>
         <SkillsContainer>
           {skills.map((item) => (

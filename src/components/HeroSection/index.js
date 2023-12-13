@@ -98,7 +98,7 @@ const HeroRightContainer = styled.div`
 
 const Title = styled.div`
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
   @media (max-width: 960px) {
@@ -213,10 +213,10 @@ export const HeroSection = () => {
         <HeroInnerContainer>
           <HeroLefContainer id="Left">
             <Title>
-              Hi, I am <br /> {Bio.name}
+              사용자를 배려하는 개발자
             </Title>
             <TextLoop>
-              I am a
+              프론트엔드 개발자
               <Span>
                 <Typewriter
                   options={{

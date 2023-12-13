@@ -1,13 +1,11 @@
 export const Bio = {
-  name: "Rishav Chanda",
-  roles: [
-    "Full Stack Developer",
-    "Android Developer",
-    "UI/UX Designer",
-    "Programmer",
-  ],
-  description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+  roles: "윤남원입니다.",
+  description: `
+    안녕하세요. 프론트엔드 개발자를 꿈꾸는 윤남원입니다.   
+    사용자에게 좋은 경험을 전달하는 일에 큰 보람을 느끼고, 
+    항상 배우는 자세로 임하며 다양한 분야에서 도전적인 경험을 쌓고 싶습니다.`
+  ,
+   
   github: "https://github.com/YunNamwon",
   resume:
     "https://drive.google.com/file/d/1UNL6H3haABt-MRhxCVdEI-ImlnQnLKay/view?usp=drive_link",
