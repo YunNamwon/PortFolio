@@ -184,7 +184,7 @@ export const projects = [
     date: "2023/08 - 2023/10",
     description:
       "Shopping mall commerce system created using NextJS and TypeScript.",
-    image:"",
+    image:"https://github.com/YunNamwon/PortFolio/blob/master/src/images/shopping.jpg?raw=true",
     tags: ["TypeScript", "React Js", "Next Js", "React-Query", "Prisma DB", "Vercel"],
     category: "web app",
     github: "https://github.com/YunNamwon/Next-Commerce",
@@ -192,17 +192,41 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
+    title: "StarBucks",
+    date: "2023/01 - 2023/02",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+      "Starbucks clone coding for studying HTML CSS JS.",
+    image:"https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/_assets/main_screenshot.jpg",
+    tags: ["HTML", "CSS", "JavaScript", "Netlify"],
+    category: "web app",
+    github: "https://github.com/YunNamwon/StarBucks",
+    webapp: "https://cosmic-croquembouche-86fbcf.netlify.app/",
   },
+  {
+    id: 2,
+    title: "EMG Health ",
+    date: "2023/04 - 2023/08",
+    description:
+      "Visualizing Data from Arduino EMG Sensors and healthcare using it",
+    image:"https://github.com/YunNamwon/CapStone-Project/blob/main/img/1.jpg?raw=true",
+    tags: ["HTML","CSS","JavaScript", "Python", "Flask", "Socket.io", "MYSQL"],
+    category: "web app",
+    github: "https://github.com/YunNamwon/CapStone-Project",
+    webapp: "https://github.com/YunNamwon/CapStone-Project",
+  },
+  // {
+  //   id: 3,
+  //   title: "Buckoid",
+  //   date: "Dec 2021 - Apr 2022",
+  //   description:
+  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+  //   image:
+  //     "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+  //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+  //   category: "android app",
+  //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
+  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+  // },
 ];
 
 export const TimeLineData = [
