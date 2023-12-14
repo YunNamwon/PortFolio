@@ -12,7 +12,7 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 - Projects: A collection of my notable projects with descriptions, screenshots, and links.
 - Skills: A list of my technical skills and proficiencies.
 - Resume: A link to download my resume.
-- Contact: A form to send me messages or inquiries.
+- Contact: A form to send me messages or inquiries
 
 ## Technologies Used
 - React.js: A JavaScript library for building user interfaces.
